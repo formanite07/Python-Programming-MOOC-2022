@@ -1,12 +1,14 @@
 Part no 1 (Geeting Started)
 
 Question no 1
-
+Fix the code: Seven Brothers
 
 # Write your solution here
 print(":-)")
 
 Question no 2
+Row, Row, Row Your Boat
+
 
 print("Aapo")
 print("Eero")
@@ -17,9 +19,35 @@ print("Timo")
 print("Tuomas")
 
 Question no 3
+Minutes in a year
+
 
 print(365*1440) # 365 days, 24 hours in each day
 
 Question no 4
+Print some code
+
 
 print('print("Hello there!")')
+
+part no 2 (Information from the user)
+
+question no 1
+Name twice
+
+
+# Write your solution here
+name = input("what is  your name? ")
+print(name)
+print(name)
+
+Question  no 2 
+Name and exclamation marks
+
+
+# Write your solution here
+name =input("whats your name? ")
+print("!",name,"!" ,name,"!" )
+
+Question no 3
+Name and address
