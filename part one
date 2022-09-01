@@ -1,1 +1,25 @@
+Part no 1 (Geeting Started)
 
+Question no 1
+
+
+# Write your solution here
+print(":-)")
+
+Question no 2
+
+print("Aapo")
+print("Eero")
+print("Juhani")
+print("Lauri")
+print("Simeoni")
+print("Timo")
+print("Tuomas")
+
+Question no 3
+
+print(365*1440) # 365 days, 24 hours in each day
+
+Question no 4
+
+print('print("Hello there!")')
