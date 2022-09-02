@@ -51,3 +51,67 @@ print("!",name,"!" ,name,"!" )
 
 Question no 3
 Name and address
+
+name = input("Given name:")
+family  = input("family name:")
+adrees  = input("street adrees:")
+post = input("city and postel code:")
+print(name+family)
+print(adrees)
+print(post)
+
+question no 4
+first = input("The 1st part:")
+second = input("The 2nd part:")
+third = input("The 3rd part:")
+
+Arithmetics
+
+
+# Write your solution here
+x = 27
+y = 15
+print(f"27 + 15 = {x+y}")
+print(f"27 - 15 = { x-y}")
+print(f"27 * 15 = {x*y}")
+print(f"27 / 15 = {x/y}")
+
+x = 4
+y = 9
+print(f"4 + 9 = {x+y}")
+print(f"4 - 9 = {x-y}")
+print(f"4 * 9 = {x*y}")
+print(f"4 / 9 = {x/y}")
+
+Extra space
+
+
+name = "Tim Tester"
+age  = 20
+skill1 = "python"
+level1 = "beginner"
+skill2 = "java"
+level2 = "veteran"
+skill3 = "programming"
+level3 = "semiprofessional"
+lower = 2000
+upper = 3000
+print("my name is",name,"," "I am ", age,"years old")
+print(" ")
+print("my skills are")
+print("- ", skill1, " ", level1, "")
+print("- ", skill2, " ", level2, "")
+print("- ", skill3, " ", level3, " ")
+print(" ")
+print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
+
+
+
+print(5)
+print(" + ")
+print(8)
+print(" - ")
+print(4)
+print("=")
+print(5 + 8 - 4)
+print(end ="")
