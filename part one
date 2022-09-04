@@ -32,43 +32,82 @@ print('print("Hello there!")')
 
 part no 2 (Information from the user)
 
-question no 1
+Question no 1
 Name twice
 
-
-# Write your solution here
 name = input("what is  your name? ")
 print(name)
 print(name)
 
-Question  no 2 
+Question no 2 
 Name and exclamation marks
 
-
-# Write your solution here
 name =input("whats your name? ")
 print("!",name,"!" ,name,"!" )
 
 Question no 3
+
 Name and address
 
 name = input("Given name:")
 family  = input("family name:")
 adrees  = input("street adrees:")
 post = input("city and postel code:")
-print(name+family)
+print(name,family)
 print(adrees)
 print(post)
 
-question no 4
+Question no 4
+Fix the code: Utterances
+
 first = input("The 1st part:")
 second = input("The 2nd part:")
 third = input("The 3rd part:")
+print(first + "-" + second + "-" + third + "!")
+
+Question no 5
+story
+
+name = input("Please type in a name ")
+year = input("please type in a year")
+
+print("{} is a valiant knight, born in the year {}. One morning {} woke up to an awful racket: a dragon was approaching the village. Only {} could save the village's residents.".format(name,year,name,name))
+
+
+Part no 3
+
+More about variables
+
+
+
+Question no 1
+
+
+Extra space
+
+name = "Tim Tester"
+age  = 20
+skill1 = "python"
+level1 = "beginner"
+skill2 = "java"
+level2 = "veteran"
+skill3 = "programming"
+level3 = "semiprofessional"
+lower = 2000
+upper = 3000
+print("my name is",name+",", "I am", age,"years old")
+print(" ")
+print("my skills are")
+print(" -", skill1, "("+ level1+ ")")
+print(" -", skill2, "("+ level2+ ")")
+print(" -", skill3, "("+ level3+ ")")
+print(" ")
+print("I am looking for a job with a salary of {}-{} euros per month".format(lower,upper))
+
+Question no 2
 
 Arithmetics
 
-
-# Write your solution here
 x = 27
 y = 15
 print(f"27 + 15 = {x+y}")
@@ -83,35 +122,121 @@ print(f"4 - 9 = {x-y}")
 print(f"4 * 9 = {x*y}")
 print(f"4 / 9 = {x/y}")
 
-Extra space
+question no 3
 
+Fix the code: Print a single line
 
-name = "Tim Tester"
-age  = 20
-skill1 = "python"
-level1 = "beginner"
-skill2 = "java"
-level2 = "veteran"
-skill3 = "programming"
-level3 = "semiprofessional"
-lower = 2000
-upper = 3000
-print("my name is",name,"," "I am ", age,"years old")
-print(" ")
-print("my skills are")
-print("- ", skill1, " ", level1, "")
-print("- ", skill2, " ", level2, "")
-print("- ", skill3, " ", level3, " ")
-print(" ")
-print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
-
-
-
-print(5)
-print(" + ")
-print(8)
-print(" - ")
-print(4)
-print("=")
-print(5 + 8 - 4)
+print(5,end ="")
+print(" + ",end ="")
+print(8,end ="")
+print(" - ",end ="")
+print(4,end ="")
+print(" = ",end ="")
+print(5 + 8 - 4, end ="")
 print(end ="")
+
+Part no 4
+
+Arithmetic operations
+
+
+Question no 1
+
+Times five
+
+input_str = input("Please type in a number:")
+input_str= int(input_str)
+mul= 5* input_str
+print("{} times 5 is {}".format(input_str,mul))
+
+Question no 2
+
+Name and age
+
+# Write your solution here
+name = input(" what is your name ")
+year = input("which year were you born")
+year = int(year)
+age = 2021-year
+print("Hi {}, you will be {} years old at the end of the year 2021".format(name,age))
+
+Question no 3
+
+Seconds in a day
+
+# Write your solution here
+days = int(input("how many days?"))
+second = 86400 * days
+print("second in that many days: {}".format(second))
+
+Question no 4
+
+Fix the code: Product
+
+number1 = int(input("Please type in the first number: "))
+number2= int(input("Please type in the second number: "))
+number3= int(input("Please type in the third number: "))
+product = number1 * number2 * number3
+print("The product is", product)
+
+Question no 5
+
+Sum and product
+
+number1 = int(input("Please type in the first number: "))
+number2= int(input("Please type in the second number: "))
+sum = number1 + number2
+product = number1 * number2
+print("The sum of the numbers: {}".format(sum))
+print("The product of the numbers: {}".format(product))
+
+Question no 6
+
+Sum and mean
+
+number1 = int(input("Number 1:"))
+number2= int(input("Number 2:"))
+number3= int(input("Number 3:"))
+number4= int(input("Number 4:"))
+summ = number1 + number2 + number3 + number4
+mean = summ/4
+print("The sum of the numbers is {} and the mean is {}".format(summ,mean))
+
+Question no 7
+
+Food expenditure
+
+times_a_week = int(input("How many times a week do you eat at the student cafeteria?"))
+price = float(input("The price of a typical student lunch?"))
+money = float(input("How much money do you spend on groceries in a week?"))
+weekly = (times_a_week * price) + money
+daily = weekly / 7
+print("Average food expenditure:")
+print("Daily: {} euros".format(daily))
+print("Weekly: {} euros".format(weekly))
+
+Question no 8
+
+Students in groups
+
+course = int(input("how many students on the course?"))
+group = int(input("Desired groups size?"))
+number = course / group
+if number % 2 != 0:
+    number+=1
+    print("Number of groups formed: {}".format(number))
+else:
+    print("Number of groups formed: {}".format(number))
+    
+    
+    Part no 5 
+    
+    Conditional statements
+    
+    Question no 1 
+    
+    Orwell
+
+
+
+
